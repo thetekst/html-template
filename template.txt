@@ -26,6 +26,29 @@ http://naikom.ru/blog/archives/5597
 <!-- HTML5 -->
 
 <!doctype html>
+    <html lang=ru>
+    <head></head>
+    <body>
+        <header> Шапка
+             <nav>Навигация</nav>
+        </header>
+ 
+        <section id="content">
+             <article>Пост</article>
+             <aside>Боковая колонка</aside>
+        </section>
+ 
+        <footer>Подвал</footer>
+    </body>
+</html>
+
+<!-- Новый CSS-->
+/*Необходимо сделать новые элементы блочными (это уже в css-файле):*/
+aside, nav, footer, header, section { display: block }
+
+<!-- My HTML5 template -->
+
+<!doctype html>
 <html lang=ru debug="true">
   <head>
       <meta charset=utf-8>
@@ -37,9 +60,9 @@ http://naikom.ru/blog/archives/5597
 	  <script src="http://" />
  </head>
  <body>
-      <header> Шапка
+      <header>
 			<a id="" href="" title=""/>
-			<nav id="">Навигация
+			<nav id="">
 				<table id="main_menu">
 					<tbody>
 						<tr>
@@ -56,12 +79,12 @@ http://naikom.ru/blog/archives/5597
 			</nav>
       </header>
  
-      <section id="content">
-           <article>Пост</article>
-           <aside>Боковая колонка</aside>
-      </section>
+      <div id="content">
+           <div id="">Пост</div>
+           <aside id="sidebar_right">Боковая колонка</aside>
+      </div>
  
-      <footer>Подвал
+      <footer>
 		<div id=""></div>
 	  </footer>
    </body>
