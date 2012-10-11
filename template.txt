@@ -57,7 +57,7 @@ aside, nav, footer, header, section { display: block }
       <!--[if IE]>
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
-	  <script src="http://" />
+	  <script src="http://"></script>
  </head>
  <body>
       <header>
