@@ -1,0 +1,37 @@
+#Adverstising {
+	margin-bottom: -4px;	
+}
+#Header .link2Private, #loginForm .closeWindow {
+	height: 35px;
+}
+
+#price-Content .camers {
+	height: 66px;
+	width: 105px;
+}
+#price-Content .archive {
+	height: 64px;
+	width: 105px;
+}
+#price-Content .price {
+	height: 72px;
+	width: 105px;
+}
+#loginForm .submit{
+	width: 67px;
+	height:20px;
+}
+
+
+.count-Content .camers {
+	height: 66px !important;
+	width: 105px !important;
+}
+.count-Content .archive {
+	height: 64px !important;
+	width: 105px !important;
+}
+.count-Content .price {
+	height: 72px !important;
+	width: 105px !important;
+}

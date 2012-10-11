@@ -1,0 +1,9 @@
+AddDefaultCharset utf-8
+
+Order deny,allow
+Deny from all
+
+<Files pinger.php>
+	order allow,deny
+	allow from all
+</Files>

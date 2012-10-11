@@ -1,0 +1,34 @@
+#Adverstising {
+	margin-bottom: -4px;	
+}
+#Header .link2Private, #loginForm .closeWindow {
+	height: 35px;
+}
+
+#price-Content .camers {
+	height: 66px;
+	width: 105px;
+}
+#price-Content .archive {
+	height: 64px;
+	width: 105px;
+}
+#price-Content .price {
+	height: 72px;
+	width: 105px;
+}
+#loginForm .submit{
+	width: 72px;
+	height:30px;
+}
+
+.YMaps-buttons {
+	top:130px !important;
+}
+
+.YMaps-slider {
+	top:215px !important;
+}
+#loginForm {
+	margin-right: -22px;
+}
