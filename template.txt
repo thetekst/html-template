@@ -1,0 +1,72 @@
+http://naikom.ru/blog/archives/5597
+
+<!-- HTML 4 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ru" dir="ltr" class="client-nojs" xmlns="http://www.w3.org/1999/xhtml">
+     <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>HTML 4</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	 </head>
+     <body>
+          <div id="header"> Шапка
+               <div id="navigation">Навигация</div>
+          </div>
+ 
+          <div id="content">
+               <div id="post">Пост</div>
+               <div id="sidebar">Боковая колонка</div>
+          </div>
+ 
+          <div id="footer">Подвал</div>
+     </body>
+</html>
+
+<!-- HTML5 -->
+
+<!doctype html>
+<html lang=ru debug="true">
+  <head>
+      <meta charset=utf-8>
+      <title>HTML5</title>
+      <link rel="stylesheet" href="style.css" />
+      <!--[if IE]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+	  <script src="http://" />
+ </head>
+ <body>
+      <header> Шапка
+			<a id="" href="" title=""/>
+			<nav id="">Навигация
+				<table id="main_menu">
+					<tbody>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</nav>
+      </header>
+ 
+      <section id="content">
+           <article>Пост</article>
+           <aside>Боковая колонка</aside>
+      </section>
+ 
+      <footer>Подвал
+		<div id=""></div>
+	  </footer>
+   </body>
+</html>
+
+<!-- Новый CSS-->
+/*Необходимо сделать новые элементы блочными (это уже в css-файле):*/
+aside, nav, footer, header, section { display: block }
