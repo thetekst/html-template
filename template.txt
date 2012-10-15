@@ -149,3 +149,5 @@ aside, nav, footer, header, section { display: block }
 
 <!-- Улучшаем border-radius.htc -->
 http://habrahabr.ru/post/102904/
+
+<!-- http://css3pie.com/ -->
