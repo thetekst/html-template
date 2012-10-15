@@ -1,13 +1,15 @@
 /* CSS Document */
 
 .-------------------- {}
-/* border-radius.htc */
-.border-radius-5px {
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;	
-	border-radius: 5px;	
-	behavior: url(border-radius.htc);
+/* border-radius by PIE-1.0.0 */
+.radius {
+	/* Скругление углов*/
+  -moz-border-radius:3px; /* Firefox */
+  -webkit-border-radius:3px; /* Safari, Google Chrome */
+  -khtml-border-radius: 3px; /* KHTML */
+  -o-border-radius: 3px; /* Opera */
+  border-radius:3px; /* CSS3 */
+  behavior: url(/css/PIE-1.0.0/PIE.htc); /* учим IE border-radius */
 }
 /* end */
 .-------------------- {}
