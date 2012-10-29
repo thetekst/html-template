@@ -15,7 +15,7 @@ require_once("php/adds.php");
   <head>
   
 	  <!--META's START-->
-      <meta charset=utf-8>
+      <meta charset="utf-8">
 	  <!--META's END-->
 	  
       <title>HTML5</title>
