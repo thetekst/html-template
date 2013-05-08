@@ -11,11 +11,11 @@ require_once("php/adds.php");
 
 ?>
 <!doctype html>
-<html lang=ru>
+<html lang="ru">
   <head>
   
 	  <!--META's START-->
-      <meta charset=utf-8>
+      <meta charset="utf-8">
 	  <!--META's END-->
 	  
       <title>HTML5</title>
