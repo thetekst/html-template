@@ -22,6 +22,7 @@ require_once("php/adds.php");
 	  
 	  <!--CSS START-->
       <link rel="stylesheet" href="./css/style.css" />
+	  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
 	  <!--CSS END-->
 	  
       <!--[if IE]>
