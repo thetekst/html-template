@@ -24,14 +24,19 @@ require_once("php/adds.php");
 		<link rel="icon" type="image/x-icon" href="./favicon.ico" />
 		<!--CSS END-->
 
-		<!--[if IE]>
-		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
 		<!--Javascript BEGIN-->
 		<script src="./js/jquery-1.8.2.min.js"></script>
 		<script src="./js/script.js"></script>
 		<!--Javascript END-->
+		
+		<!--[if IE]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<!--[if IE 6]>
+            <script src="./js/DD_belatedPNG-Fix/DD_belatedPNG_0.0.8a-min.js"></script>
+            <script>DD_belatedPNG.fix('...');</script> <!-- ... #id or .class -->
+        <![endif]-->
 	  
 	</head>
 	<body>
