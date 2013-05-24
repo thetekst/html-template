@@ -10,6 +10,18 @@ require_once("php/adds.php");
 //////////Globals variables
 
 ?>
+<!--
+	<section></section> - display:block; 
+    <kbd></kbd> - строчный элемент: display:block; font-family: [по умолчанию моноширинный шрифт: monospace]. Поэтому выставляем свой
+    <code></code> - строчный элемент: display:block; font-family: [по умолчанию моноширинный шрифт: monospace]. Поэтому выставляем свой. Этот текст еще уменьшенный. Поэтому выставляем для него font-size
+    <samp></samp> - строчный элемент: display:block; font-family: [по умолчанию моноширинный шрифт: monospace]. Поэтому выставляем свой.
+    <em></em> - строчный элемент: display:block; font-style:normal;
+    <strong></strong> - строчный элемент: display:block; font-weight:normal;
+    <tt></tt> - строчный элемент: display:block; font-family: [по умолчанию моноширинный шрифт: monospace]. Поэтому выставляем свой
+    <var></var> - строчный элемент: display:block; font-style:normal;
+    <ins></ins> - display:block; text-decoration:none;
+    <mark></mark> - display:block; background: none;
+-->
 <!doctype html>
 <html lang="ru">
 	<head>
