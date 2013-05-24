@@ -35,7 +35,7 @@ require_once("php/adds.php");
 		
 		<!--[if IE 6]>
             <script src="./js/DD_belatedPNG-Fix/DD_belatedPNG_0.0.8a-min.js"></script>
-            <script>DD_belatedPNG.fix('.myclass');</script>
+            <script>DD_belatedPNG.fix('div, ul, li, span, a, u, s, i, header, footer, strike, .myclass, #myid');</script>
         <![endif]-->
 	  
 	</head>
