@@ -15,18 +15,6 @@
 /* end */
 .-------------------- {}
 
-body {
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.widthController {
-	max-width: 1000px;
-/*	width: 1000px; */
-	margin: auto;
-	border:1px solid #000;
-}
-
 a {
 	color:#2286b6;
 }
@@ -35,13 +23,37 @@ a:hover {
 	color:#bf0f49;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, code {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-	
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center; /* div align="center" for IE < 9 */
 }
+
+code {
+	width:1000px;
+	max-width: 1000px;
+	margin: 0 auto;
+	display:block;
+	text-align:left; /* div align="center" for IE < 9 */
+	background:#00CCCC;
+}
+
+header {
+	background:#e8e7d5;
+}
+
+header menu li {
+	display: inline;
+}
+
+.-------------------- {}
+
+
+
+.-------------------- {}
 
 footer {
 	

@@ -1,7 +1,7 @@
 <?
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////Includ's
-require_once("php/adds.php");
+/*require_once("php/adds.php");*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////Objects
@@ -52,25 +52,30 @@ require_once("php/adds.php");
 	  
 	</head>
 	<body>
-		<!--GlobalContainer BEGIN-->
-		<div id="GlobalContainer">
-
+		<code>
 			<!--Header BEGIN-->
 			<header class="widthController">
 				<nav id="">
 					<table id="main_menu">
 						<tbody>
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+								<td>6</td>
+								<td>7</td>
 							</tr>
 						</tbody>
 					</table>
+                    <menu>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                    </menu>
 				</nav>
 			</header>
 			<!--Header END-->
@@ -88,8 +93,6 @@ require_once("php/adds.php");
 			</footer>
 			<!--Footer END-->
 
-		</div>
-		<!--GlobalContainer END-->
-
+		</code>
 	</body>
 </html>
