@@ -11,6 +11,10 @@
         <link rel="stylesheet" href="./css/reset.css" />
         <!--CSS END-->
 		
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
 		<style>
 			body {
 				font-family: Georgia, Helvetica, sans-serif;
@@ -67,7 +71,7 @@
 
 	</head>
 	<body>
-        <code>
+        <!--<code>-->
         
         	<!--Header BEGIN-->
             <header class="width">
@@ -111,6 +115,6 @@
             </footer>
             <!--Footer END-->
             
-        </code>
+        <!--</code>-->
    </body>
 </html>

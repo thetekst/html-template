@@ -27,7 +27,12 @@ h1, h2, h3, h4, h5, h6, code {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+input:focus {
+    outline:none; /* убрать рамку при активном поле формы */
+}
+
 body {
+	min-width: 1000px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align:center; /* div align="center" for IE < 9 */
 }
@@ -35,6 +40,7 @@ body {
 code {
 	width:1000px;
 	max-width: 1000px;
+	overflow:hidden; /* избавляемся от белой полосы */
 	margin: 0 auto;
 	display:block;
 	text-align:left; /* div align="center" for IE < 9 */
