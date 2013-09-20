@@ -66,30 +66,9 @@ IncludeTemplateLangFile(__FILE__);
 				Array("MODE"=>"html")
 			);?>
 			<!--include file END-->
-			
-			<!--menu component BEGIN-->
-			<nav>Навигация
-				<?$APPLICATION->IncludeComponent(
-					"bitrix:menu",
-					"horizontal_multilevel",
-					Array(
-						"ROOT_MENU_TYPE" => "top", 
-						"MAX_LEVEL" => "3", 
-						"CHILD_MENU_TYPE" => "left", 
-						"USE_EXT" => "Y", 
-						"MENU_CACHE_TYPE" => "A",
-						"MENU_CACHE_TIME" => "3600",
-						"MENU_CACHE_USE_GROUPS" => "Y",
-						"MENU_CACHE_GET_VARS" => Array()
-					)
-				);?>
-			</nav>
-			<!--menu component END-->
-			
-			<img src="<?=SITE_TEMPLATE_PATH?>/images/logo.jpg" id="header_logo" height="105" alt="" width="508" border="0"/>
-			
+
 			<!--home page link BEGIN-->
-			<a href="/" title="Главная" id="company_logo"></a>
+			<a href="/" title="Главная" id="company_logo">Home</a>
 			<!--home page link END-->
 			
 			<!--search component BEGIN-->
@@ -118,26 +97,3 @@ IncludeTemplateLangFile(__FILE__);
 			</div>
 			<!--auth END-->
         </header>
-		
-		<!--contents BEGIN-->
-		<h1 id="pagetitle"><?$APPLICATION->ShowTitle(false)?></h1>
-		
-		<section id="Content" class="pageWidth">
-			<article>Пост</article>
-			<aside>Боковая колонка</aside>
-            <div class="clear"></div>
-        </section>
-		<!--contents END-->
-		
-        <footer class="pageWidth">Подвал
-		
-			<!--include file BEGIN-->
-			<?$APPLICATION->IncludeFile(
-				$APPLICATION->GetTemplatePath("include_areas/copyright.php"),
-				Array(),
-				Array("MODE"=>"html")
-			);?>
-			<!--include file END-->
-		</footer>
-   </body>
-</html>
