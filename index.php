@@ -37,6 +37,17 @@
             <script src="./js/DD_belatedPNG-Fix/DD_belatedPNG_0.0.8a-min.js"></script>
             <script>DD_belatedPNG.fix('div, ul, li, span, a, u, s, i, header, footer, strike, .myclass, #myid');</script>
         <![endif]-->
+		
+		<!--[if lt IE 9]>
+		   <script>
+			  document.createElement('header');
+			  document.createElement('nav');
+			  document.createElement('section');
+			  document.createElement('article');
+			  document.createElement('aside');
+			  document.createElement('footer');
+		   </script>
+		<![endif]-->
 	  
 	</head>
 	<body>
