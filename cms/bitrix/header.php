@@ -42,6 +42,13 @@ IncludeTemplateLangFile(__FILE__);
 		<div id="panel"><?$APPLICATION->ShowPanel();?></div>
 		<!--show admin panel END-->
 		
+		<!--Is USER Authorized BEGIN-->
+		<?
+		global $USER;
+		if ($USER->IsAuthorized()) echo "Вы авторизованы!";
+		?>
+		<!--Is USER Authorized END-->
+		
 		<!--If admin BEGIN-->
 		<?if($USER->IsAdmin()):?>
 			<!--some code-->
