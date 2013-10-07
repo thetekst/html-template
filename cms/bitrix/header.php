@@ -50,7 +50,7 @@ IncludeTemplateLangFile(__FILE__);
 		
 		<!--If home page BEGIN-->
 		<?
-		if ($GLOBALS["APPLICATION"]->GetCurPage() != "/") {
+		if ($APPLICATION->GetCurPage(false) === '/') {
 			#some code
 		}
 		?>
