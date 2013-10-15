@@ -5,18 +5,17 @@ IncludeTemplateLangFile(__FILE__);
 <!doctype html>
 <html lang="<?=LANGUAGE_ID?>">
     <head>
+	
+		<!--CSS BEGIN-->
+		<link rel="stylesheet" href="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH."/css/reset.css")?>" />
+        <!--CSS END-->
 		
 		<!--META's, etc BEGIN-->
         <?$APPLICATION->ShowHead()?>
 		<!--META's, etc END-->
         
         <title><?$APPLICATION->ShowTitle()?></title>
-        
-        <!--CSS BEGIN-->
-		<link rel="stylesheet" href="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH."/css/reset.css")?>" />
-        <link rel="stylesheet" href="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH."/template_styles.css")?>" />
-        <!--CSS END-->
-        
+
         <!--JQUERY BEGIN-->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <!--JQUERY END-->
